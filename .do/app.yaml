@@ -1,9 +1,10 @@
 name: sample-nuxtjs
 services:
+  dockerfile_path: Dockerfile
 - build_command: yarn build
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-nuxtjs
+    repo: papimuerte/sample-nuxtjs-mine
   name: sample-nuxtjs
